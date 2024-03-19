@@ -1,0 +1,31 @@
+# Go binary and executable files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test and coverage files
+*.test
+*.out
+*.prof
+
+# Go build and dependency directories
+/bin/
+/pkg/
+/vendor/
+
+# Go documentation files
+/doc/
+/site/
+
+# Go IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Go system and temporary files
+*.log
+*.tmp
+*.swp
