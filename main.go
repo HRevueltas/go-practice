@@ -1,15 +1,23 @@
 package main
 
-import (
-	"fmt"
-	// "project-layout/conditionals/ifelse"
-	// "project-layout/conditionals/switcher"
-	"project-layout/arrays"
-)
+import "fmt"
+
+// import "os/user"
+
+// import "os/user"
+
+// import fmtpackage "project-layout/fmtPackage"
 
 func main() {
-	// ifelse.Condition()
-	fmt.Println("Hello, playground")
-	arrays.Array()
-	// switcher.Condition()
+
+	fmt.Println(computePrice(10, 20.5))
+}
+
+func computePrice(numberOfItems int, pricePerItem float64) (float64, string) {
+	if numberOfItems < 0 {
+		return 0, "Invalid number of items"
+	}
+
+	return float64(numberOfItems) * pricePerItem, ""
+
 }
