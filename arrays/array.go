@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func Array() {
+func array() {
 	start := time.Now()
 
 	var a [5]int
